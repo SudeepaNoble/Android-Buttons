@@ -9,17 +9,17 @@ There are two ways of using buttons in android
   
   In the code I gave below, the first button(id= button1) is by onclick and the second one(id= button2) is by OnClickListener
   
-  ************Code in the XML File is***************
+  ************Code in the XML File is************
   
-  <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
+      <LinearLayout
         android:layout_width="395dp"
         android:layout_height="715dp"
         android:orientation="vertical"
@@ -38,23 +38,23 @@ There are two ways of using buttons in android
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="OnClickListener" />
-    </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+     </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-*********Code in the MainActivity java file***********
+*********Code in the MainActivity java file*********
 
-package com.example.buttonbasic;
+    package com.example.buttonbasic;
 
-import androidx.appcompat.app.AppCompatActivity;
+    import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
-import android.app.Activity;
-import android.view.View;
-import android.widget.Toast;
-import android.widget.Button;
+    import android.os.Bundle;
+    import android.app.Activity;
+    import android.view.View;
+    import android.widget.Toast;
+    import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+    public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
