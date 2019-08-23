@@ -9,7 +9,7 @@ There are two ways of using buttons in android
   
   In the code I gave below, the first button(id= button1) is by onclick and the second one(id= button2) is by OnClickListener
   
-  ************Code in the XML File is************
+  ************Code in the XML File ************
   
     <?xml version="1.0" encoding="utf-8"?>
     <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -77,4 +77,4 @@ There are two ways of using buttons in android
                 "Button1 is clicked", Toast.LENGTH_LONG).show();
     }
 
-}
+    }
