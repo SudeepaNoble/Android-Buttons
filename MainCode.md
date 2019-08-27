@@ -1,6 +1,8 @@
 # Android-Buttons
 Buttons in Android 
 A button consists of text or an icon (or both text and an icon) that communicates what action occurs when the user touches it.
+onClick takes the text of button and onClickListener holds the id.
+So, the more professional way is using onClickListener.
 
   
   In the code I gave below, the first button(id= button1) is by onclick and the second one(id= button2) is by OnClickListener
