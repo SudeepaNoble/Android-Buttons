@@ -4,4 +4,4 @@ Buttons in Android A button consists of text or an icon (or both text and an ico
 
 onClick In the XML file
 OnClickListener In the MainActivity java file
-In the code I gave below, the first button(id= button1) is by onclick and the second one(id= button2) is by OnClickListener
+In the code I gave below, the first button(id= button1) is by onclick and the second one(id= button2) is by OnClickListener.
